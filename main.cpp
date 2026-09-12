@@ -1,25 +1,22 @@
 #include <iostream>
+#include <string>
 
-// Homework 4 — Your Name
-// CIS 5 Week 04 · Operators + console I/O
+// Project 1 — Your Name
+// CIS 5 Week 04 · Student card
 
 int main() {
-  double price = 0.0;
-  int qty = 0;
-  double tip_pct = 0.0;
+  const int CURRENT_YEAR = 2026;
 
-  // TODO: a comment that explains a choice (why qty is an int, why price is a double)
+  // TODO (week 3): declare and initialize the four boxes
+  //   first (std::string), age (int), credits (int), gpa (double)
 
-  // TODO: cout prompt, then cin, for price, qty, and tip_pct
+  // TODO (week 2): a cout question, then a cin into the box — four times
 
-  // TODO: subtotal, tip, total as named doubles
-  // TODO: keep the int / int version of the tip line commented, with what it printed and why
-  // int pct = 15;
-  // double tip = subtotal * (pct / 100);   // printed Tip: 0 — ...
+  // TODO (week 4): one computed line with an operator
+  //   int grad_year = CURRENT_YEAR + 4;
 
-  // TODO: labeled output from the names
-
-  // TODO: run twice with different tip percents. Comment which line made the output change.
+  // TODO (weeks 1-4): print the card from the variable names
+  //   header line, one labeled line per variable, then the computed value
 
   return 0;
 }
